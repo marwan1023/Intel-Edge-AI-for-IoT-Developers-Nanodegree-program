@@ -43,7 +43,7 @@ python3 /opt/intel/openvino/deployment_tools/open_model_zoo/tools/downloader/dow
 python3 /opt/intel/openvino/deployment_tools/open_model_zoo/tools/downloader/downloader.py --name head-pose-estimation-adas-0001  
 python3 /opt/intel/openvino/deployment_tools/open_model_zoo/tools/downloader/downloader.py --name landmarks-regression-retail-0009
 
-
+```
 
 ### Initialize OpenVino environment
 
@@ -55,11 +55,9 @@ Step1. Open command prompt Activate Virtual Environment
 
 <User PC> virtualenv venv
 ```
-C:\Users\enmar>virtualenv venv
-
 cd venv/Scripts/
 activate
-``
+```
 
 Step2. Instantiate OpenVino Environment. For windows use below command
 ```
@@ -103,7 +101,7 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 -lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP32-INT8/landmarks-regression-retail-0009.xml 
 -hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP32-INT8/head-pose-estimation-adas-0001.xml -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP32-INT8/gaze-estimation-adas-0002.xml 
 -inp C:/UdaciteProject/starter/bin/demo.mp4 -d CPU -o C:/UdaciteProject/starter/outcomes_CPU/FP32-INT8/ -flags face_frame face_eyes
-
+````
 
 Type CPU -FP16
 
@@ -111,7 +109,7 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 -lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009.xml -hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001.xml 
 -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002.xml 
 -inp C:/UdaciteProject/starter/bin/demo.mp4 -d CPU -o C:/UdaciteProject/starter/outcomes_CPU/FP16/ -flags face_frame face_eyes
-
+```
 
 Type CPU -FP32
 
@@ -131,14 +129,14 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 -hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP32-INT8/head-pose-estimation-adas-0001.xml 
 -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP32-INT8/gaze-estimation-adas-0002.xml 
 -inp C:/UdaciteProject/starter/bin/demo.mp4 -d GPU -o C:/UdaciteProject/starter/outcomes_GPU/FP32-INT8/ -flags face_frame face_eyes
-
+```
 Type GPU-FP16
 python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP16/face-detection-adas-0001.xml 
 -lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009.xml 
 -hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001.xml 
 -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002.xml 
 -inp C:/UdaciteProject/starter/bin/demo.mp4 -d GPU -o C:/UdaciteProject/starter/outcomes_GPU/FP16/ -flags face_frame face_eyes
-
+```
 Type GPU-FP32
 
 python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP32/face-detection-adas-0001.xml 
@@ -169,7 +167,7 @@ bin: this folder has demo.mp4 file which can be used to test model
 
 
 
-
+````
 
 ## Benchmarks
 
@@ -221,7 +219,7 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
   | CPU              |  32.0s                            | 2.662999s                     | 1.843750 |
   | GPU              |  34.1s                            | 47.700375s                    | 1.730205 |
 
-
+``
 ## Results
  the p
 Some of the observations from benchmark results:
@@ -229,7 +227,8 @@ Some of the observations from benchmark results:
 • Model load time is reduced when preicison is changed from FP32 to FP16 to INT8. This is because as weight are quantized and reduced in size then load time is also reduced.
 • Model inference time is slighly improved when changing precision from FP32 to FP16 and from FP32 to INT8. This is expected as accuracy decrease performance improves. There is slight increase in inference time when changing precision from FP16 to INT8.
 • Model inference time is increased when changing device from CPU to GPU. Here we can get better performance only when batch inferencing is done on GPU to leverage full compute capacity of GPU.
-• Frames per second is pretty consistent irrespective of precision but it slightly reduces as device is changed from CPU to GPU. Here again fps can be increased on GPU device if batch inferencing is done.
+• Frames per second is pretty consistent irrespective of precision but it slightly reduces as device is changed from CPU to GPU.
+Here again fps can be increased on GPU device if batch inferencing is done.
 • For `Inference Time FPS ,and load time FP32 and FP16  give slightly better results. There is not much difference for this three different models for this two parameters.
 • I have tested model for Asynchronous Inference and Synchronous Inference, Asynchronous Inference has better results it has slight improvement in `inference time` and `FPS`
 
@@ -361,30 +360,3 @@ C:.
 
 ```
 
- ### Project Directory Structure
-  ```bash
-computer-pointer-controller  
-|
-|--media
-|   |--FP16.mp4
-|   |--FP32.mp4
-|   |--FPINT8.mp4
-|   |--demo.mp4
-|   |--demo.png
-|   |--pipeline.mp4
-|--models
-|   |--face-detection-adas-binary-0001
-|   |--gaze-estimation-adas-0002
-|   |--head-pose-estimation-adas-0001
-|   |--landmarks-regression-retail-0009
-|--README.md
-|--requirements.txt
-|--src
-    |--face_detection.py
-    |--facial_landmarks_detection.py
-    |--gaze_estimation.py
-    |--head_pose_estimation.py
-    |--input_feeder.py
-    |--main.py
-    |--mouse_controller.py
-```
