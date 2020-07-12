@@ -1,8 +1,8 @@
 # Smart Queuing System
 The goal of this project is building an application to reduce congestion and queuing systems.
 ## The Scenarios
-1. [Manufacturing Sector](https:///marwan1023-Intel-Edge-AI-for-IoT-Developers-Nanodegree-program--to-confirm./blob/master/Smart%20Queue%20Monitoring%20System/Scenarios/Scenario%201.pdf)
-2. [Retail Sector](https://https://github.com/marwan1023/marwan1023-Intel-Edge-AI-for-IoT-Developers-Nanodegree-program--to-confirm./blob/master/Smart%20Queue%20Monitoring%20System/Scenarios/Scenario%202.pdf)
+1. [Manufacturing Sector](https://github.com/marwan1023/marwan1023-Intel-Edge-AI-for-IoT-Developers-Nanodegree-program--to-confirm./blob/master/Smart%20Queue%20Monitoring%20System/Scenarios/Scenario%201.pdf)
+2. [Retail Sector](https://github.com/marwan1023/marwan1023-Intel-Edge-AI-for-IoT-Developers-Nanodegree-program--to-confirm./blob/master/Smart%20Queue%20Monitoring%20System/Scenarios/Scenario%202.pdf)
 3. [Transportation Sector](https://github.com/marwan1023/marwan1023-Intel-Edge-AI-for-IoT-Developers-Nanodegree-program--to-confirm./blob/master/Smart%20Queue%20Monitoring%20System/Scenarios/Scenario%203.pdf)
 ##  Instructions
 - Propose a possible hardware solution for each scenario
