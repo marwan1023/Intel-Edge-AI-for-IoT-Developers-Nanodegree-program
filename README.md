@@ -1,6 +1,6 @@
 # Intel-Edge-AI-for-IoT-Developers-Nanodegree-program
 
-![](Udacity.png)   |  ![](Intel-Scholarship+2020@2x.jpg)
+![](Udacity.png) | ![](Intel-Scholarship+2020@2x.jpg)
 </br>
 
 <div>
@@ -8,6 +8,11 @@
     <p>N.B.: Please don't use the assignment and quiz solution. Try to solve the problem by yourself.</p><br/>
     <p>Leverage the Intel® Distribution of OpenVINO™ Toolkit to fast-track development of high-performance computer vision and deep learning inference applications, and run pre-trained deep learning models for computer vision on-premise. You will identify key hardware specifications of various hardware types (CPU, VPU, FPGA, and Integrated GPU), and utilize the Intel® DevCloud for the Edge to test model performance on the various hardware types. Finally, you will use software tools to optimize deep learning models to improve performance of Edge AI systems. - <a href="https://www.udacity.com/course/intel-edge-ai-for-iot-developers-nanodegree--nd131">Source</a></p>
 </div>
+
+## Projects
+1. [Deploy a People Counter App at the Edge](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Deploy%20a%20People%20Counter%20App%20at%20the%20Edge)
+2. [Smart Queuing System](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Smart%20Queue%20Monitoring%20System)
+3. [Computer Pointer Controller](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Computer%20Pointer%20Controller/starter)
 
 ## Requirements
 * 64-bit operating system that has 6th or newer generation of Intel processor running either Windows 10, Ubuntu 18.04.3 LTS, or macOS 10.13 or higher.
@@ -205,6 +210,6 @@
 * [58] [Deep Learning for Distracted Driving Detection](https://www.nauto.com/blog/nauto-engineering-deep-learning-for-distracted-driver-monitoring)
 * [59] [Intel® DevMesh](https://devmesh.intel.com/)
 
-## Awards in the Program
-![Intel Scholarship Winner Badge](Intel-Scholarship-Winner-Badge.jpg)
-![Best Mentor Award](Best_Mentor_Award.png)
+## Certification the Program
+![Intel Scholarship Winner Badge](Capture.PNG)
+
