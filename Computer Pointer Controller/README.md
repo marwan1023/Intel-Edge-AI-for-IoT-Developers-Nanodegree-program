@@ -72,9 +72,9 @@ Install the project requirements by running
 
 pip install -r requirements.txt
 ```
- install numpy `conda install numpy`
- Install `pyautogui` using command `conda install -c conda-forge pyautogui`
- Below is the output of `pip freeze` command. Check if I have missed something:
+ - install numpy `conda install numpy`
+ - Install `pyautogui` using command `conda install -c conda-forge pyautogui`
+ - Below is the output of `pip freeze` command. Check if I have missed something:
   ```
   certifi==2020.4.5.1
   mkl-fft==1.0.15
@@ -182,15 +182,12 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 
 - **models**
   * Ideally this directory should have all the downloaded model, but you can choose some other directory as well to store the models.
-  
+  * models folder contains subfolder for each model where corresponding inference files are downloaded for FP32, FP16 and FP32-INT8. 
 -**bin**
-   - this folder has demo.mp4 file which can be used to test model
-
-   -  models folder contains subfolder for each model where corresponding inference files are downloaded for FP32, FP16 and FP32-INT8. 
-   
--**Analysis Project**
-  - Analysis Project folder This folder contains tow files OpenVino Compute Pointer Controller.html and OpenVino Compute Pointer Controller.html 
-    Analyze implementation results from folders outcomes_GPU and outcomes_CPU by stats.txt
+  * this folder has demo.mp4 file which can be used to test model
+- **Analysis Project**
+   * Analysis Project folder This folder contains tow files OpenVino Compute Pointer Controller.html and OpenVino Compute Pointer Controller.html 
+     Analyze implementation results from folders outcomes_GPU and outcomes_CPU by stats.txt
     
 - **images**
   * This folder has graph/plot of the results of this application. It also has other images like pipeline diagram which are used in readme file.
