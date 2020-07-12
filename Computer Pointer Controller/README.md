@@ -70,7 +70,7 @@ setupvars.bat
 Step3. Go back to the project directory `src` folder
 
 ```
-Step3.Install the project requirements by running 
+Install the project requirements by running 
 
 pip install -r requirements.txt
 ```
@@ -94,8 +94,8 @@ Following are commanda line arguments that can use for while running the main.py
 ----         
 Step5. Run below commands to execute the project
 
-
-To run model on CPU use below command in terminal window:
+ ``` 
+### To run model on CPU use below command in terminal window:
 
 Type CPU -FP32-INT8
 
@@ -119,35 +119,39 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 -lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP32/landmarks-regression-retail-0009.xml -hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP32/head-pose-estimation-adas-0001.xml 
 -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP32/gaze-estimation-adas-0002.xml 
 -inp C:/UdaciteProject/starter/bin/demo.mp4 -d CPU -o C:/UdaciteProject/starter/outcomes_CPU/FP32/ -flags face_frame face_eyes
+``` 
 
------------------------------------------------------------------------------------------------------------------------------------------------
-
-To run model on GPU use below command in terminal window:
+```
+### To run model on GPU use below command in terminal window:
 
 Type GPU-FP32-INT8
 
 python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP32-INT8/face-detection-adas-0001.xml 
 -lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP32-INT8/landmarks-regression-retail-0009.xml 
--hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP32-INT8/head-pose-estimation-adas-0001.xml -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP32-INT8/gaze-estimation-adas-0002.xml 
+-hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP32-INT8/head-pose-estimation-adas-0001.xml 
+-gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP32-INT8/gaze-estimation-adas-0002.xml 
 -inp C:/UdaciteProject/starter/bin/demo.mp4 -d GPU -o C:/UdaciteProject/starter/outcomes_GPU/FP32-INT8/ -flags face_frame face_eyes
 
 Type GPU-FP16
 python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP16/face-detection-adas-0001.xml 
--lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009.xml -hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001.xml 
+-lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009.xml 
+-hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001.xml 
 -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002.xml 
 -inp C:/UdaciteProject/starter/bin/demo.mp4 -d GPU -o C:/UdaciteProject/starter/outcomes_GPU/FP16/ -flags face_frame face_eyes
 
 Type GPU-FP32
 
 python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP32/face-detection-adas-0001.xml 
--lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP32/landmarks-regression-retail-0009.xml -hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP32/head-pose-estimation-adas-0001.xml 
+-lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP32/landmarks-regression-retail-0009.xml 
+-hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP32/head-pose-estimation-adas-0001.xml 
 -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP32/gaze-estimation-adas-0002.xml 
 -inp C:/UdaciteProject/starter/bin/demo.mp4 -d GPU -o C:/UdaciteProject/starter/outcomes_GPU/FP32/ -flags face_frame face_eyes
-----------------------------------------------------------------------------------------------------------------------------------------------
-
+```
+```
 - src: This folder contains model files, pipeline file(main.py) and utilities
 
-1- model.py is the model class file which has common property of all the other model files. It is inherited by all the other model files This folder has 4 model class files, This class files has methods to load model and perform inference.
+1- model.py is the model class file which has common property of all the other model files. It is inherited by all the other model files 
+   This folder has 4 model class files, This class files has methods to load model and perform inference.
 2- face_detection_model.py
 3- gaze_estimation_model.py
 4- landmark_detection_model.py
@@ -160,7 +164,8 @@ bin: this folder has demo.mp4 file which can be used to test model
 
 -  models folder contains subfolder for each model where corresponding inference files are downloaded for FP32, FP16 and FP32-INT8. 
 
-- Analysis Project folder This folder contains tow files OpenVino Compute Pointer Controller.html and OpenVino Compute Pointer Controller.html  Analyze implementation results from folders outcomes_GPU and outcomes_CPU by stats.txt
+- Analysis Project folder This folder contains tow files OpenVino Compute Pointer Controller.html and OpenVino Compute Pointer Controller.html 
+  Analyze implementation results from folders outcomes_GPU and outcomes_CPU by stats.txt
 
 
 
@@ -178,7 +183,7 @@ bin: this folder has demo.mp4 file which can be used to test model
 
    CPU (2.3 GHz Intel Core i5)
    GPU (Intel(R) UHD Graphics 630)
-
+```
 I have checked Inference Time, Model Loading Time, and Frames Per Second model for FP16, FP32, and FP32-INT8
 
 * Benchmark results of the model. CPU(FP32-INT8,FP16,FP32) and Asynchronous Inference
@@ -186,7 +191,7 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 
 * Benchmark results of the model. GPU(FP32-INT8,FP16,FP32) and Asynchronous Inference
 
-
+```
 
 * Due to non availability of FPGA and VPU in local machine, I did not run inference for these device types.
 
@@ -238,9 +243,7 @@ Edge Cases
 2.If for some reason model can not detect the face then it throws off track and pointer continues in same direction.
 3.If there are more than one face detected in the frame then model takes the first detected face for control the mouse pointer.
 
-### Directory Structure
 
-```
 
 C:\UdaciteProject>tree /F
 Folder PATH listing for volume Windows
