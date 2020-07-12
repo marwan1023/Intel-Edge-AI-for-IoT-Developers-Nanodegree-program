@@ -246,8 +246,8 @@ C:\UdaciteProject>tree /F
 Folder PATH listing for volume Windows
 
 
-[C:.
-└───starter
+C:.
+|__starter
     │   Commend Run the project.txt
     │   Intel(R) UHD Graphics 630 Sunday, July 5, 2020.txt
     │   P05 Computer Pointer Controller.pdf
