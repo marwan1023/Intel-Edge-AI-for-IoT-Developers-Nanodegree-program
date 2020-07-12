@@ -78,6 +78,7 @@ cd src
  ```  
 
 Step4. Command Line Arguments for Running the app
+```
 Following are commanda line arguments that can use for while running the main.py file python main.py:-
 1. -h (required) : Get the information about all the command line arguments
 2. -fdm (required) : (required) Specify the path of Face Detection model's name as  shown below for specific precision FP32, FP16, INT8
@@ -89,30 +90,30 @@ Following are commanda line arguments that can use for while running the main.py
 8. -flags (optional): Specify the flags from face_frame, face_eyes frame, hpm, ge if you want to visualize the output of corresponding models of each frame (write flags with space seperation. Ex:- -flags face_frame face_eyes).
 9. - d (Optional): Specify Device for inference, the device can be CPU, GPU,FPGA (For running on FPGA used HETERO:FPGA,CPU), MYRIAD.
 10. - o : Specify path of output folder where we will store outcomes_CPU and outcomes_GPU
-----         
+````        
 Step5. Run below commands to execute the project
 
  ``` 
 ### To run model on CPU use below command in terminal window:
-
-Type CPU -FP32-INT8
-
+```
+### Type CPU -FP32-INT8
+```
 python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP32-INT8/face-detection-adas-0001.xml 
 -lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP32-INT8/landmarks-regression-retail-0009.xml 
 -hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP32-INT8/head-pose-estimation-adas-0001.xml -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP32-INT8/gaze-estimation-adas-0002.xml 
 -inp C:/UdaciteProject/starter/bin/demo.mp4 -d CPU -o C:/UdaciteProject/starter/outcomes_CPU/FP32-INT8/ -flags face_frame face_eyes
-````
+```
 
-Type CPU -FP16
-
+### Type CPU -FP16
+```
 python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP16/face-detection-adas-0001.xml 
 -lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009.xml -hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001.xml 
 -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002.xml 
 -inp C:/UdaciteProject/starter/bin/demo.mp4 -d CPU -o C:/UdaciteProject/starter/outcomes_CPU/FP16/ -flags face_frame face_eyes
 ```
 
-Type CPU -FP32
-
+### Type CPU -FP32
+```
 python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP32/face-detection-adas-0001.xml 
 -lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP32/landmarks-regression-retail-0009.xml -hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP32/head-pose-estimation-adas-0001.xml 
 -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP32/gaze-estimation-adas-0002.xml 
@@ -121,24 +122,25 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 
 ```
 ### To run model on GPU use below command in terminal window:
-
-Type GPU-FP32-INT8
-
+```
+###Type GPU-FP32-INT8
+```
 python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP32-INT8/face-detection-adas-0001.xml 
 -lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP32-INT8/landmarks-regression-retail-0009.xml 
 -hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP32-INT8/head-pose-estimation-adas-0001.xml 
 -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP32-INT8/gaze-estimation-adas-0002.xml 
 -inp C:/UdaciteProject/starter/bin/demo.mp4 -d GPU -o C:/UdaciteProject/starter/outcomes_GPU/FP32-INT8/ -flags face_frame face_eyes
 ```
-Type GPU-FP16
+### Type GPU-FP16
+```
 python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP16/face-detection-adas-0001.xml 
 -lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP16/landmarks-regression-retail-0009.xml 
 -hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP16/head-pose-estimation-adas-0001.xml 
 -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP16/gaze-estimation-adas-0002.xml 
 -inp C:/UdaciteProject/starter/bin/demo.mp4 -d GPU -o C:/UdaciteProject/starter/outcomes_GPU/FP16/ -flags face_frame face_eyes
 ```
-Type GPU-FP32
-
+### Type GPU-FP32
+```
 python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP32/face-detection-adas-0001.xml 
 -lrm C:/UdaciteProject/starter/models/landmarks-regression-retail-0009/FP32/landmarks-regression-retail-0009.xml 
 -hpm C:/UdaciteProject/starter/models/head-pose-estimation-adas-0001/FP32/head-pose-estimation-adas-0001.xml 
@@ -147,7 +149,7 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 ```
 ```
 - src: This folder contains model files, pipeline file(main.py) and utilities
-
+```
 1- model.py is the model class file which has common property of all the other model files. It is inherited by all the other model files 
    This folder has 4 model class files, This class files has methods to load model and perform inference.
 2- face_detection_model.py
@@ -157,14 +159,14 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 6- main.py file used to run complete pipeline of project. It calls has object of all the other class files in the folder
 7- mouse_controller.py is utility to move mouse curser based on mouse coordinates received from gaze_estimation_model class predict method.
 8- input_feeder.py is utility to load local video or webcam feed
-
+```
 bin: this folder has demo.mp4 file which can be used to test model
-
+````
 -  models folder contains subfolder for each model where corresponding inference files are downloaded for FP32, FP16 and FP32-INT8. 
 
 - Analysis Project folder This folder contains tow files OpenVino Compute Pointer Controller.html and OpenVino Compute Pointer Controller.html 
   Analyze implementation results from folders outcomes_GPU and outcomes_CPU by stats.txt
-
+```
 
 
 ````
@@ -219,7 +221,7 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
   | CPU              |  32.0s                            | 2.662999s                     | 1.843750 |
   | GPU              |  34.1s                            | 47.700375s                    | 1.730205 |
 
-``
+
 ## Results
  the p
 Some of the observations from benchmark results:
