@@ -149,8 +149,8 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 -gem C:/UdaciteProject/starter/models/gaze-estimation-adas-0002/FP32/gaze-estimation-adas-0002.xml 
 -inp C:/UdaciteProject/starter/bin/demo.mp4 -d GPU -o C:/UdaciteProject/starter/outcomes_GPU/FP32/ -flags face_frame face_eyes
 ```
-
-### src: This folder contains model files, pipeline file(main.py) and utilities
+-**src**: 
+  This folder contains model files, pipeline file(main.py) and utilities
 ```
 1- model.py is the model class file which has common property of all the other model files. It is inherited by all the other model files 
    This folder has 4 model class files, This class files has methods to load model and perform inference.
@@ -162,7 +162,8 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 7- mouse_controller.py is utility to move mouse curser based on mouse coordinates received from gaze_estimation_model class predict method.
 8- input_feeder.py is utility to load local video or webcam feed
 ```
-### bin: this folder has demo.mp4 file which can be used to test model
+-**bin**: 
+    this folder has demo.mp4 file which can be used to test model
 
 -  models folder contains subfolder for each model where corresponding inference files are downloaded for FP32, FP16 and FP32-INT8. 
 
@@ -197,7 +198,7 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 </br>
 
 
-**Benchmark results of the model. GPU(FP32-INT8,FP16,FP32) and Asynchronous Inference
+**Benchmark results of the model. GPU(FP32-INT8,FP16,FP32) and Asynchronous Inference**
 
 ![](./starter/Images/gpu/model.GPU.png)   |  ![](./starter/Images/gpu/asyngpy.png)
  :---------------------------------------:|:---------------------------------------:
@@ -207,7 +208,7 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 
 * Due to non availability of FPGA and VPU in local machine, I did not run inference for these device types.
 
-```
+
 
 * FP32
 
@@ -237,7 +238,7 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
   | CPU              |  32.0s                            | 2.662999s                     | 1.843750 |
   | GPU              |  34.1s                            | 47.700375s                    | 1.730205 |
 
-````
+
 
 
 
