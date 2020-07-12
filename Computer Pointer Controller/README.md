@@ -245,7 +245,8 @@ Edge Cases
 C:\UdaciteProject>tree /F
 Folder PATH listing for volume Windows
 
-
+### Project Directory Structure
+  ```bash
 C:.
 |--starter
     │--Commend Run the project.txt
@@ -355,6 +356,7 @@ C:.
                 model.cpython-36.pyc
                 mouse_controller.cpython-36.pyc
 
+```
 
  ### Project Directory Structure
   ```bash
