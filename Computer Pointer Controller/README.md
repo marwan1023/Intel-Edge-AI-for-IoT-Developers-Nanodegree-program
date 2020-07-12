@@ -53,8 +53,8 @@ run by  python 3.6 during environ create step..
 
 Step1. Open command prompt Activate Virtual Environment 
 
-< User PC > virtualenv venv
 ```
+< User PC > virtualenv venv
 cd venv/Scripts/
 activate
 ```
@@ -152,21 +152,22 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 - **src** 
   * This folder contains model files, pipeline file(main.py) and utilities
 
-   1- model.py is the model class file which has common property of all the other model files. It is inherited by all the other model files 
-   This folder has 4 model class files, This class files has methods to load model and perform inference.
-   2- face_detection_model.py
-   3- gaze_estimation_model.py
-   4- landmark_detection_model.py
-   5- head_pose_estimation_model.py
-   6- main.py file used to run complete pipeline of project. It calls has object of all the other class files in the folder
-   7- mouse_controller.py is utility to move mouse curser based on mouse coordinates received from gaze_estimation_model class predict method.
-   8- input_feeder.py is utility to load local video or webcam feed
+   * model.py is the model class file which has common property of all the other model files. It is inherited by all the other model files 
+        This folder has 4 model class files, This class files has methods to load model and perform inference.
+   * face_detection_model.py
+   * gaze_estimation_model.py
+   * landmark_detection_model.py
+   * head_pose_estimation_model.py
+   * main.py file used to run complete pipeline of project. It calls has object of all the other class files in the folder
+   * mouse_controller.py is utility to move mouse curser based on mouse coordinates received from gaze_estimation_model class predict method.
+   * input_feeder.py is utility to load local video or webcam feed
 
 
 -**bin**
    - this folder has demo.mp4 file which can be used to test model
 
    -  models folder contains subfolder for each model where corresponding inference files are downloaded for FP32, FP16 and FP32-INT8. 
+   
 -**Analysis Project**
   - Analysis Project folder This folder contains tow files OpenVino Compute Pointer Controller.html and OpenVino Compute Pointer Controller.html 
     Analyze implementation results from folders outcomes_GPU and outcomes_CPU by stats.txt
@@ -267,10 +268,10 @@ Edge Cases
 3.If there are more than one face detected in the frame then model takes the first detected face for control the mouse pointer.
 
 
-
+```
 C:\UdaciteProject>tree /F
 Folder PATH listing for volume Windows
-
+```
 ### Project Directory Structure
   ```bash
 C:.
