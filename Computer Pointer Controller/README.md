@@ -191,7 +191,7 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 * Benchmark results of the model. CPU(FP32-INT8,FP16,FP32) and Asynchronous Inference
 
 
-:-------------------------:|:-------------------------:
+
 ![](./Images/cpu/model.cpu.png)  |  ![](./Images/cpu/asycncpu.png)
 
  
@@ -228,6 +228,7 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 
 
 * FP32-INT8
+
   
   | Type of Hardware | Total inference time|             | Total load time               | fps      |
   |------------------|-----------------------------------|-------------------------------|----------|
