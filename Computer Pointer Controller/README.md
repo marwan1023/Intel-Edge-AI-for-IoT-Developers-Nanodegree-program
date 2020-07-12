@@ -185,8 +185,9 @@ bin: this folder has demo.mp4 file which can be used to test model
 
    CPU (2.3 GHz Intel Core i5)
    GPU (Intel(R) UHD Graphics 630)
-```
+
 I have checked Inference Time, Model Loading Time, and Frames Per Second model for FP16, FP32, and FP32-INT8
+
 
 * Benchmark results of the model. CPU(FP32-INT8,FP16,FP32) and Asynchronous Inference
 
@@ -234,6 +235,8 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
   |------------------|-----------------------------------|-------------------------------|----------|
   | CPU              |  32.0s                            | 2.662999s                     | 1.843750 |
   | GPU              |  34.1s                            | 47.700375s                    | 1.730205 |
+
+
 
 
 
