@@ -53,7 +53,7 @@ run by  python 3.6 during environ create step..
 
 Step1. Open command prompt Activate Virtual Environment 
 
-<User PC> virtualenv venv
+< User PC > virtualenv venv
 ```
 cd venv/Scripts/
 activate
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 cd path_of_project_directory
 cd src
 
- ```  
+ 
 
 Step4. Command Line Arguments for Running the app
 
@@ -93,7 +93,7 @@ Following are commanda line arguments that can use for while running the main.py
       
 Step5. Run below commands to execute the project
 
- ``` 
+ 
 ### To run model on CPU use below command in terminal window:
 ```
 ### Type CPU -FP32-INT8
@@ -151,7 +151,7 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 ```
 
 - src: This folder contains model files, pipeline file(main.py) and utilities
-```
+
 1- model.py is the model class file which has common property of all the other model files. It is inherited by all the other model files 
    This folder has 4 model class files, This class files has methods to load model and perform inference.
 2- face_detection_model.py
@@ -161,7 +161,7 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 6- main.py file used to run complete pipeline of project. It calls has object of all the other class files in the folder
 7- mouse_controller.py is utility to move mouse curser based on mouse coordinates received from gaze_estimation_model class predict method.
 8- input_feeder.py is utility to load local video or webcam feed
-```
+
 bin: this folder has demo.mp4 file which can be used to test model
 
 -  models folder contains subfolder for each model where corresponding inference files are downloaded for FP32, FP16 and FP32-INT8. 
@@ -191,6 +191,15 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 * Benchmark results of the model. CPU(FP32-INT8,FP16,FP32) and Asynchronous Inference
 
 
+:-------------------------:|:-------------------------:
+![](Images/cpu/model.cpu.png)  |  ![](Images/cpu/asycncpu.png)
+
+ 
+:-------------------------:|:-------------------------:
+![](Images/cpu/asycncpu1.png)  |  ![](Images/cpu/fasycncpu2.png)
+
+</br>
+
 * Benchmark results of the model. GPU(FP32-INT8,FP16,FP32) and Asynchronous Inference
 
 ```
@@ -200,8 +209,8 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 
 * FP32
 
-| Type of Hardware   | Total inference time              | Total load time              | fps        |
-  |------------------|-----------------------------------|------------------------------|-------------
+  | Type of Hardware | Total inference time              | Total load time              | fps        |
+  |------------------|-----------------------------------|------------------------------|------------|
   | CPU              |  31.6s                            | 0.930308s                    | 1.867089   |
   | GPU              |  32.8s                            | 33.834617s                   | 1.798780   |
 
@@ -209,7 +218,7 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
   
   
   | Type of Hardware | Total inference time              | Total load time               | fps       |
-  |------------------|-----------------------------------|-------------------------------|--------------
+  |------------------|-----------------------------------|-------------------------------|-----------|--
   | CPU              |  31.8s                            |  1.165073s                    | 1.855346  |
   | GPU              |  32.6s                            |  34.921903s                   | 1.809816  |
 
@@ -217,9 +226,8 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 
 * FP32-INT8
   
-  
   | Type of Hardware | Total inference time|             | Total load time               | fps      |
-  |------------------|-----------------------------------|-------------------------------|------------
+  |------------------|-----------------------------------|-------------------------------|----------|
   | CPU              |  32.0s                            | 2.662999s                     | 1.843750 |
   | GPU              |  34.1s                            | 47.700375s                    | 1.730205 |
 
@@ -239,6 +247,7 @@ Here again fps can be increased on GPU device if batch inferencing is done.
 
 
 ### Edge Cases
+
   * When performing inference using web cam feed as input, mouse controller crashed when pointer moved to corner of the screen. To overcome this problem I had to set pyautogui.FailSafe to false in MouseController class. This feature is enabled by default so that you can easily stop execution of your pyautogui program by manually moving the mouse to the upper left corner of the screen.  
 
 
