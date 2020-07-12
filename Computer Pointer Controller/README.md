@@ -192,11 +192,11 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 
 
 :-------------------------:|:-------------------------:
-![](Images/cpu/model.cpu.png)  |  ![](Images/cpu/asycncpu.png)
+![](./Images/cpu/model.cpu.png)  |  ![](./Images/cpu/asycncpu.png)
 
  
 :-------------------------:|:-------------------------:
-![](Images/cpu/asycncpu1.png)  |  ![](Images/cpu/fasycncpu2.png)
+![](./Images/cpu/asycncpu1.png)  |  ![](./Images/cpu/fasycncpu2.png)
 
 </br>
 
@@ -214,13 +214,16 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
   | CPU              |  31.6s                            | 0.930308s                    | 1.867089   |
   | GPU              |  32.8s                            | 33.834617s                   | 1.798780   |
 
+
 * FP16
   
   
+  
   | Type of Hardware | Total inference time              | Total load time               | fps       |
-  |------------------|-----------------------------------|-------------------------------|-----------|--
+  |------------------|-----------------------------------|-------------------------------|-----------|
   | CPU              |  31.8s                            |  1.165073s                    | 1.855346  |
   | GPU              |  32.6s                            |  34.921903s                   | 1.809816  |
+
 
 
 
