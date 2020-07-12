@@ -72,10 +72,28 @@ Install the project requirements by running
 
 pip install -r requirements.txt
 ```
+ install numpy `conda install numpy`
+ Install `pyautogui` using command `conda install -c conda-forge pyautogui`
+ Below is the output of `pip freeze` command. Check if I have missed something:
+  ```
+  certifi==2020.4.5.1
+  mkl-fft==1.0.15
+  mkl-random==1.1.0
+  mkl-service==2.3.0
+  numpy==1.18.1
+  olefile==0.46
+  Pillow==5.3.0
+  PyAutoGUI==0.9.48
+  PyMsgBox==1.0.7
+  pyobjc-core==6.2
+  pyobjc-framework-Cocoa==6.1
+  pyobjc-framework-Quartz==5.3
+  PyScreeze==0.1.26
+  PyTweening==1.0.3
+  six==1.14.0
+  ```
 cd path_of_project_directory
 cd src
-
- 
 
 Step4. Command Line Arguments for Running the app
 
@@ -162,7 +180,9 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
    * mouse_controller.py is utility to move mouse curser based on mouse coordinates received from gaze_estimation_model class predict method.
    * input_feeder.py is utility to load local video or webcam feed
 
-
+- **models**
+  * Ideally this directory should have all the downloaded model, but you can choose some other directory as well to store the models.
+  
 -**bin**
    - this folder has demo.mp4 file which can be used to test model
 
@@ -171,7 +191,9 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 -**Analysis Project**
   - Analysis Project folder This folder contains tow files OpenVino Compute Pointer Controller.html and OpenVino Compute Pointer Controller.html 
     Analyze implementation results from folders outcomes_GPU and outcomes_CPU by stats.txt
-
+    
+- **images**
+  * This folder has graph/plot of the results of this application. It also has other images like pipeline diagram which are used in readme file.
 
 
 ## Benchmarks
