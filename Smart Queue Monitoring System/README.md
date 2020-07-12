@@ -1,9 +1,9 @@
 # Smart Queuing System
 The goal of this project is building an application to reduce congestion and queuing systems.
 ## The Scenarios
-1. [Manufacturing Sector](https://github.com/RoumaissaaMadoui/intel-edge-AI-for-IoT-developers-nanodegree-projects/blob/master/smart-queuing-system/Scenarios/Scenario%201.pdf)
-2. [Retail Sector](https://github.com/RoumaissaaMadoui/intel-edge-AI-for-IoT-developers-nanodegree-projects/blob/master/smart-queuing-system/Scenarios/Scenario%202.pdf)
-3. [Transportation Sector](https://github.com/RoumaissaaMadoui/intel-edge-AI-for-IoT-developers-nanodegree-projects/blob/master/smart-queuing-system/Scenarios/Scenario%203.pdf)
+1. [Manufacturing Sector](https:///marwan1023-Intel-Edge-AI-for-IoT-Developers-Nanodegree-program--to-confirm./blob/master/Smart%20Queue%20Monitoring%20System/Scenarios/Scenario%201.pdf)
+2. [Retail Sector](https://https://github.com/marwan1023/marwan1023-Intel-Edge-AI-for-IoT-Developers-Nanodegree-program--to-confirm./blob/master/Smart%20Queue%20Monitoring%20System/Scenarios/Scenario%202.pdf)
+3. [Transportation Sector](https://github.com/marwan1023/marwan1023-Intel-Edge-AI-for-IoT-Developers-Nanodegree-program--to-confirm./blob/master/Smart%20Queue%20Monitoring%20System/Scenarios/Scenario%203.pdf)
 ##  Instructions
 - Propose a possible hardware solution for each scenario
 - Build out your application and test its performance on the DevCloud using multiple hardware types
@@ -24,16 +24,16 @@ The goal of this project is building an application to reduce congestion and que
 
    |  CPU   |  FPGA |  GPU  |  VPU  |
    |  :---: | :---: | :---: | :---: |    
-   | ![Manufacturing_cpu](./results_gif/m_cpu.gif) | ![Manufacturing_fpga](./results_gif/m_fpga.gif) | ![Manufacturing_gpu](./results_gif/m_gpu.gif) | ![Manufacturing_vpu](./results_gif/m_vpu.gif) |
+   | ![Manufacturing_cpu](.manufacturing/cpu/ezgif.com-video-to-gif_cpu.gif) | ![Manufacturing_fpga](./results_gif/manufacturing/fpga/ezgif.com-video-to-gif_Fpga.gif) | ![Manufacturing_gpu](./results_gif/manufacturing/gpu/ezgif.com-video-to-gif_gpu.gif) | ![Manufacturing_vpu](./results_gif/manufacturing/vpu/ezgif.com-video-to-gif_vpu.gif) |
 
 2. Retail Sector
 
    |  CPU   |  FPGA |  GPU  |  VPU  |
    |  :---: | :---: | :---: | :---: |     
-   | ![Retail_cpu](./results_gif/r_cpu.gif) | ![Retail_fpga](./results_gif/r_fpga.gif) | ![Retail_gpu](./results_gif/r_gpu.gif) | ![Retail_vpu](./results_gif/r_vpu.gif) |
+   | ![Retail_cpu](./results_gif/retail/cpu/ezgif.com-video-to-gif_cpu.gif) | ![Retail_fpga](./results_gif/retail/fpga/ezgif.com-video-to-gif_fpga.gif) | ![Retail_gpu](./results_gif/retail/gpu/ezgif.com-video-to-gif_gpu.gif) | ![Retail_vpu](./results_gif/retail/vpu/ezgif.com-video-to-gif_vpu.gif) |
 
 3. Transportation Sector
 
    |  CPU   |  FPGA |  GPU  |  VPU  |
    |  :---: | :---: | :---: | :---: |      
-   | ![Transportation_cpu](./results_gif/t_cpu.gif) | ![Transportation_fpga](./results_gif/t_fpga.gif) | ![Transportation_gpu](./results_gif/t_gpu.gif) | ![Transportation_vpu](./results_gif/t_vpu.gif) |
+   | ![Transportation_cpu](./results_gif/transportation/cpu/ezgif.com-video-to-gif_cpu.gif | ![Transportation_fpga](./results_gif/transportation/fpga/ezgif.com-video-to-gif_fpga.gif) | ![Transportation_gpu](./results_gif/transportation/gpu/ezgif.com-video-to-gif_gpu.gif) | ![Transportation_vpu](./results_gif/transportation/vpu/ezgif.com-video-to-gif_vpu.gif) |
