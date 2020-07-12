@@ -199,10 +199,15 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 
 **Benchmark results of the model. GPU(FP32-INT8,FP16,FP32) and Asynchronous Inference
 
+![](./starter/Images/gpu/model.GPU.png)   |  ![](./starter/Images/gpu/asyngpy.png)
+ :---------------------------------------:|:---------------------------------------:
+![](./starter/Images/gpu/asyngpy1.png)   |  ![](./starter/Images/gpu/asyngpy2.png)
+</br>
 
 
 * Due to non availability of FPGA and VPU in local machine, I did not run inference for these device types.
 
+```
 
 * FP32
 
@@ -232,7 +237,7 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
   | CPU              |  32.0s                            | 2.662999s                     | 1.843750 |
   | GPU              |  34.1s                            | 47.700375s                    | 1.730205 |
 
-
+````
 
 
 
