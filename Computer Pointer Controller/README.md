@@ -245,21 +245,21 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 
 
 ## Results
- the p
-Some of the observations from benchmark results:
-• Model load time significantly increases when device is switch from CPU to GPU as expected. Model takes considerably longer to load in GPU as we analyzed from prior project study.
-• Model load time is reduced when preicison is changed from FP32 to FP16 to INT8. This is because as weight are quantized and reduced in size then load time is also reduced.
-• Model inference time is slighly improved when changing precision from FP32 to FP16 and from FP32 to INT8. This is expected as accuracy decrease performance improves. There is slight increase in inference time when changing precision from FP16 to INT8.
-• Model inference time is increased when changing device from CPU to GPU. Here we can get better performance only when batch inferencing is done on GPU to leverage full compute capacity of GPU.
-• Frames per second is pretty consistent irrespective of precision but it slightly reduces as device is changed from CPU to GPU.
+ The Some of the observations from benchmark results:
+* Model load time significantly increases when device is switch from CPU to GPU as expected. Model takes considerably longer to load in GPU as we analyzed from prior project study.
+* Model load time is reduced when preicison is changed from FP32 to FP16 to INT8. This is because as weight are quantized and reduced in size then load time is also reduced.
+* Model inference time is slighly improved when changing precision from FP32 to FP16 and from FP32 to INT8. This is expected as accuracy decrease performance improves. There is slight increase in inference time when changing precision from FP16 to INT8.
+* Model inference time is increased when changing device from CPU to GPU. Here we can get better performance only when batch inferencing is done on GPU to leverage full compute capacity of GPU.
+* Frames per second is pretty consistent irrespective of precision but it slightly reduces as device is changed from CPU to GPU.
 Here again fps can be increased on GPU device if batch inferencing is done.
-• For `Inference Time FPS ,and load time FP32 and FP16  give slightly better results. There is not much difference for this three different models for this two parameters.
-• I have tested model for Asynchronous Inference and Synchronous Inference, Asynchronous Inference has better results it has slight improvement in `inference time` and `FPS`
+* For `Inference Time FPS ,and load time FP32 and FP16  give slightly better results. There is not much difference for this three different models for this two parameters.
+* I have tested model for Asynchronous Inference and Synchronous Inference, Asynchronous Inference has better results it has slight improvement in `inference time` and `FPS`
 
 
 ### Edge Cases
 
-  * When performing inference using web cam feed as input, mouse controller crashed when pointer moved to corner of the screen. To overcome this problem I had to set pyautogui.FailSafe to false in MouseController class. This feature is enabled by default so that you can easily stop execution of your pyautogui program by manually moving the mouse to the upper left corner of the screen.  
+  * When performing inference using web cam feed as input, mouse controller crashed when pointer moved to corner of the screen. To overcome this problem I had to set        pyautogui.FailSafe to false in MouseController class .
+  This feature is enabled by default so that you can easily stop execution of your pyautogui program by manually moving the mouse to the upper left corner of the screen.  
 
 
 Edge Cases
@@ -268,11 +268,13 @@ Edge Cases
 3.If there are more than one face detected in the frame then model takes the first detected face for control the mouse pointer.
 
 
+
+### Project Directory Structure
+
 ```
 C:\UdaciteProject>tree /F
 Folder PATH listing for volume Windows
 ```
-### Project Directory Structure
   ```bash
 C:.
 |--starter
