@@ -24,7 +24,7 @@ The goal of this project is building an application to reduce congestion and que
 
    |  CPU   |  FPGA |  GPU  |  VPU  |
    |  :---: | :---: | :---: | :---: |    
-   | ![Manufacturing_cpu](.manufacturing/cpu/ezgif.com-video-to-gif_cpu.gif) | ![Manufacturing_fpga](./results_gif/manufacturing/fpga/ezgif.com-video-to-gif_Fpga.gif) | ![Manufacturing_gpu](./results_gif/manufacturing/gpu/ezgif.com-video-to-gif_gpu.gif) | ![Manufacturing_vpu](./results_gif/manufacturing/vpu/ezgif.com-video-to-gif_vpu.gif) |
+   | ![Manufacturing_cpu](./results_gif/manufacturing/cpu/ezgif.com-video-to-gif_cpu.gif) | ![Manufacturing_fpga](./results_gif/manufacturing/fpga/ezgif.com-video-to-gif_Fpga.gif) | ![Manufacturing_gpu](./results_gif/manufacturing/gpu/ezgif.com-video-to-gif_gpu.gif) | ![Manufacturing_vpu](./results_gif/manufacturing/vpu/ezgif.com-video-to-gif_vpu.gif) |
 
 2. Retail Sector
 
@@ -36,4 +36,4 @@ The goal of this project is building an application to reduce congestion and que
 
    |  CPU   |  FPGA |  GPU  |  VPU  |
    |  :---: | :---: | :---: | :---: |      
-   | ![Transportation_cpu](./results_gif/transportation/cpu/ezgif.com-video-to-gif_cpu.gif | ![Transportation_fpga](./results_gif/transportation/fpga/ezgif.com-video-to-gif_fpga.gif) | ![Transportation_gpu](./results_gif/transportation/gpu/ezgif.com-video-to-gif_gpu.gif) | ![Transportation_vpu](./results_gif/transportation/vpu/ezgif.com-video-to-gif_vpu.gif) |
+   | ![Transportation_cpu](./results_gif/transportation/cpu/ezgif.com-video-to-gif_cpu.gif) | ![Transportation_fpga](./results_gif/transportation/fpga/ezgif.com-video-to-gif_fpga.gif) | ![Transportation_gpu](./results_gif/transportation/gpu/ezgif.com-video-to-gif_gpu.gif) | ![Transportation_vpu](./results_gif/transportation/vpu/ezgif.com-video-to-gif_vpu.gif) |
