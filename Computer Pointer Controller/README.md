@@ -193,17 +193,18 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 
 
 
-![](./Images/cpu/model.cpu.png)  |  ![](./Images/cpu/asycncpu.png)
+![](./starter/Images/cpu/model.cpu.png)  |  ![](./starter/Images/cpu/asycncpu.png)
 
  
-:-------------------------:|:-------------------------:
-![](./Images/cpu/asycncpu1.png)  |  ![](./Images/cpu/fasycncpu2.png)
+ :---------------------------------------:|:---------------------------------------:
+
+![](./starter/Images/cpu/asycncpu1.png)  |  ![](./starter/Images/cpu/fasycncpu2.png)
 
 </br>
 
 * Benchmark results of the model. GPU(FP32-INT8,FP16,FP32) and Asynchronous Inference
 
-```
+
 
 * Due to non availability of FPGA and VPU in local machine, I did not run inference for these device types.
 
