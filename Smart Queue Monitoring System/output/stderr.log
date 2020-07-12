@@ -1,0 +1,2 @@
+person_detect.py:54: DeprecationWarning: Reading network using constructor is deprecated. Please, use IECore.read_network() method instead
+  self.model = IENetwork(self.model_structure, self.model_weights)

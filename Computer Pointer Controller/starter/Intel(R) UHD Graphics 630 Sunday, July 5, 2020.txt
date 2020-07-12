@@ -1,0 +1,80 @@
+Intel(R) UHD Graphics 630
+
+
+
+
+Report Date: Sunday, July 5, 2020
+Report Time [hh:mm:ss]: 4:27:56 PM
+Driver Version: 26.20.100.6911
+Operating System: Windows* 10 Home (10.0.19041)
+Physical Memory: 8081 MB
+Vendor ID: 8086
+Device ID: 3E9B
+Device Revision: 00
+Graphics Output Protocol (GOP) Version: 9.0.1074
+Current Resolution: 1920 x 1080
+
+
+
+
+Processor: Intel(R) Core(TM) i5-8300H CPU @ 2.30GHz
+Processor Speed: 2304 MHz
+Processor Graphics in Use: Intel(R) UHD Graphics 630
+Shader Version: 5.1
+OpenGL* Version: 4.6
+OpenCL* Version: 2.1
+Vulkan* Version: 1.1.103
+CUI Appx Version: 3.3.0.0
+
+
+* Microsoft DirectX* *
+Runtime Version: 12.0
+Hardware-Supported Version: 12.0
+
+
+
+
+* Devices connected to the Graphics Accelerator *
+
+
+Active Displays: 1
+
+
+
+
+* Built-in Display *
+
+
+Display Type: Digital
+DDC2 Protocol: Supported
+Gamma: 2.2
+Connector Type: Embedded DisplayPort
+Device Type: Built-in Display
+
+
+Maximum Image Size
+Horizontal Size: 13.39 inches
+Vertical Size: 7.48 inches
+
+
+Supported Modes
+1920 x 1080 (60p Hz)
+1920 x 1080 (40p Hz)
+
+
+
+
+
+Raw EDID:
+00 FF FF FF FF FF FF 00 09 E5 A1 07 00 00 00 00 
+26 1A 01 04 95 22 13 78 02 C9 A0 95 5D 59 94 29 
+24 50 54 00 00 00 01 01 01 01 01 01 01 01 01 01 
+01 01 01 01 01 01 70 3A 80 0B 71 38 3C 40 30 20 
+36 00 58 C1 10 00 00 1A F5 26 80 0B 71 38 3C 40 
+64 64 44 05 58 C1 10 00 00 1A 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 02 
+00 0F 47 F9 0B 3C 6E 16 15 24 6E 00 00 00 00 99 
+
+
+
+* Other names and brands are the property of their respective owners.
