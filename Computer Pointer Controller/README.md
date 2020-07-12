@@ -247,23 +247,23 @@ Folder PATH listing for volume Windows
 
 
 C:.
-|__starter
-    │   Commend Run the project.txt
-    │   Intel(R) UHD Graphics 630 Sunday, July 5, 2020.txt
-    │   P05 Computer Pointer Controller.pdf
-    │   README.md
-    │   requirements.txt
+|--starter
+    │--Commend Run the project.txt
+    │--Intel(R) UHD Graphics 630 Sunday, July 5, 2020.txt
+    │--P05 Computer Pointer Controller.pdf
+    │--README.md
+    │--requirements.txt
     │
-    ├───Analysis Project
-    │       OpenVino Compute Pointer Controller .html
-    │       OpenVino Compute Pointer Controller .ipynb
+    |--Analysis Project
+    │      |-- OpenVino Compute Pointer Controller .html
+    │      |--OpenVino Compute Pointer Controller .ipynb
     │
-    ├───bin
-    │       demo.mp4
-    │       output_video.mp4
+    |--bin
+    │    |--demo.mp4
+    │    |--output_video.mp4
     │
-    ├───models
-    │   ├───face-detection-adas-0001
+    |---models
+    │   |--face-detection-adas-0001
     │   │   ├───FP16
     │   │   │       face-detection-adas-0001.bin
     │   │   │       face-detection-adas-0001.xml
@@ -354,4 +354,29 @@ C:.
                 landmark_detection_model.cpython-36.pyc
                 model.cpython-36.pyc
                 mouse_controller.cpython-36.pyc
-]
+
+
+computer-pointer-controller  
+|
+|--media
+|   |--FP16.mp4
+|   |--FP32.mp4
+|   |--FPINT8.mp4
+|   |--demo.mp4
+|   |--demo.png
+|   |--pipeline.mp4
+|--models
+|   |--face-detection-adas-binary-0001
+|   |--gaze-estimation-adas-0002
+|   |--head-pose-estimation-adas-0001
+|   |--landmarks-regression-retail-0009
+|--README.md
+|--requirements.txt
+|--src
+    |--face_detection.py
+    |--facial_landmarks_detection.py
+    |--gaze_estimation.py
+    |--head_pose_estimation.py
+    |--input_feeder.py
+    |--main.py
+    |--mouse_controller.py
