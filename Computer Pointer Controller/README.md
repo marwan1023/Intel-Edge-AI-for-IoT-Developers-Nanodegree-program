@@ -1,4 +1,4 @@
-﻿
+
 Pleas see the folder Analysis Project subfolder OpenVino Compute Pointer Controller.html and file P05 Computer Pointer Controller.pdf Benchmark results of the project.
 
 # Computer Pointer Controller
@@ -183,7 +183,7 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
 - **models**
   * Ideally this directory should have all the downloaded model, but you can choose some other directory as well to store the models.
   * models folder contains subfolder for each model where corresponding inference files are downloaded for FP32, FP16 and FP32-INT8. 
--**bin**
+- **bin**
   * this folder has demo.mp4 file which can be used to test model
 - **Analysis Project**
    * Analysis Project folder This folder contains tow files OpenVino Compute Pointer Controller.html and OpenVino Compute Pointer Controller.html 
@@ -191,7 +191,9 @@ python main.py -fdm C:/UdaciteProject/starter/models/face-detection-adas-0001/FP
     
 - **images**
   * This folder has graph/plot of the results of this application. It also has other images like pipeline diagram which are used in readme file.
-
+  
+- <b>README.md</b> What you are reading now and file PDF
+- <b>requirements.txt</b> All the dependencies of the project listed here.
 
 ## Benchmarks
 
