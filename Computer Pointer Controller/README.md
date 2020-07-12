@@ -356,6 +356,8 @@ C:.
                 mouse_controller.cpython-36.pyc
 
 
+ ### Project Directory Structure
+  ```bash
 computer-pointer-controller  
 |
 |--media
@@ -380,3 +382,4 @@ computer-pointer-controller
     |--input_feeder.py
     |--main.py
     |--mouse_controller.py
+```
