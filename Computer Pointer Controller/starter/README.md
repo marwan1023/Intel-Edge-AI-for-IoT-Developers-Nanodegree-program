@@ -24,7 +24,7 @@ To get these inputs, you will have to use three other OpenVino models:
 ### The Pipeline:
 You will have to coordinate the flow of data from the input, and then amongst the different models and finally to the mouse controller. The flow of data will look like this:
 
-![pipeline](./starter/Images/pipeline.png)
+![pipeline](./Images/pipeline.png)
 
 ## Project Set Up and Installation:
 
@@ -214,17 +214,17 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 
 
 
-![](./starter/Images/cpu/model.cpu.png)   |  ![](./starter/Images/cpu/asycncpu.png)
+![](./Images/cpu/model.cpu.png)   |  ![](./Images/cpu/asycncpu.png)
  :---------------------------------------:|:---------------------------------------:
-![](./starter/Images/cpu/asycncpu1.png)   |  ![](./starter/Images/cpu/asycncpu2.png)
+![](./Images/cpu/asycncpu1.png)   |  ![](./Images/cpu/asycncpu2.png)
 </br>
 
 
 **Benchmark results of the model. GPU(FP32-INT8,FP16,FP32) and Asynchronous Inference**
 
-![](./starter/Images/gpu/model.GPU.png)   |  ![](./starter/Images/gpu/asyngpy.png)
+![](./Images/gpu/model.GPU.png)   |  ![](./Images/gpu/asyngpy.png)
  :---------------------------------------:|:---------------------------------------:
-![](./starter/Images/gpu/asyngpy1.png)   |  ![](./starter/Images/gpu/asyngpy2.png)
+![](./Images/gpu/asyngpy1.png)   |  ![](./Images/gpu/asyngpy2.png)
 </br>
 
 
