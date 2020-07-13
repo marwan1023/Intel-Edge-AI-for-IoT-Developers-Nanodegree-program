@@ -1,7 +1,7 @@
 ## Intel® Edge AI for IoT Developers Nanodegree program
 
  
- <img src="Intel-Scholarship+2020@2x.jpg" width="500"/> | <img src="Udacity.png" width="500"/>
+ <img src="Intel-Scholarship+2020@2x.jpg" width="500"/>         | <img src="Udacity.png" width="450"/>
     </br>
  
 
@@ -64,13 +64,13 @@ The goal of this project is building an application to reduce congestion and que
 
    |  CPU   |  FPGA |  GPU  |  VPU  |
    |  :---: | :---: | :---: | :---: |     
-   | ![Retail_cpu](./Smart Queue Monitoring System/results_gif/retail/cpu/ezgif.com-video-to-gif_cpu.gif) | ![Retail_fpga](./Smart Queue Monitoring System/results_gif/retail/fpga/ezgif.com-video-to-gif_fpga.gif) | ![Retail_gpu](./Smart Queue Monitoring System/results_gif/retail/gpu/ezgif.com-video-to-gif_gpu.gif) | ![Retail_vpu](./Smart Queue Monitoring System/results_gif/retail/vpu/ezgif.com-video-to-gif_vpu.gif) |
+   | <img src="/Smart Queue Monitoring System/results_gif/retail/cpu/ezgif.com-video-to-gif_cpu.gif" />| <img src="/Smart Queue Monitoring System/results_gif/retail/fpga/ezgif.com-video-to-gif_fpga.gif" /> | <img src="/Smart Queue Monitoring System/results_gif/retail/gpu/ezgif.com-video-to-gif_gpu.gif"/> | <img src="/Smart Queue Monitoring System/results_gif/retail/vpu/ezgif.com-video-to-gif_vpu.gif"/> |
 
 3. Transportation Sector
 
    |  CPU   |  FPGA |  GPU  |  VPU  |
    |  :---: | :---: | :---: | :---: |      
-   | ![Transportation_cpu](./Smart Queue Monitoring System/results_gif/transportation/cpu/ezgif.com-video-to-gif_cpu.gif) | ![Transportation_fpga](./Smart Queue Monitoring System/results_gif/transportation/fpga/ezgif.com-video-to-gif_fpga.gif) | ![Transportation_gpu](./Smart Queue Monitoring System/results_gif/transportation/gpu/ezgif.com-video-to-gif_gpu.gif) | ![Transportation_vpu](./Smart Queue Monitoring System/results_gif/transportation/vpu/ezgif.com-video-to-gif_vpu.gif) |
+   | <img src="/Smart Queue Monitoring System/results_gif/transportation/cpu/ezgif.com-video-to-gif_cpu.gif" /> | <img src="/Smart Queue Monitoring System/results_gif/transportation/fpga/ezgif.com-video-to-gif_fpga.gif" /> | <img src="/Smart Queue Monitoring System/results_gif/transportation/gpu/ezgif.com-video-to-gif_gpu.gif" /> | <img src="/Smart Queue Monitoring System/results_gif/transportation/vpu/ezgif.com-video-to-gif_vpu.gif" /> |
    
 ## 3. [Computer Pointer Controller](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Computer%20Pointer%20Controller/starter)
 
