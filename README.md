@@ -11,7 +11,8 @@
     <p>Leverage the Intel® Distribution of OpenVINO™ Toolkit to fast-track development of high-performance computer vision and deep learning inference applications, and run pre-trained deep learning models for computer vision on-premise. You will identify key hardware specifications of various hardware types (CPU, VPU, FPGA, and Integrated GPU), and utilize the Intel® DevCloud for the Edge to test model performance on the various hardware types. Finally, you will use software tools to optimize deep learning models to improve performance of Edge AI systems. - <a href="https://www.udacity.com/course/intel-edge-ai-for-iot-developers-nanodegree--nd131">Source</a></p>
 </div>
 
-## Projects
+##  Intel® Edge AI for IoT Developers Nanodegree program Projects
+
 ## 1. [Deploy a People Counter App at the Edge](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Deploy%20a%20People%20Counter%20App%20at%20the%20Edge)
 
 The project aims to create a people counting smart camera able to detect people using an optimized AI model at the Edge and extract relevant statistics like:
