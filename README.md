@@ -74,6 +74,96 @@ The goal of this project is building an application to reduce congestion and que
    
 ## 3. [Computer Pointer Controller](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Computer%20Pointer%20Controller/starter)
 
+In this project, you will use a Gaze Detection Model [Gaze Detection Model](https://docs.openvinotoolkit.org/latest/_models_intel_gaze_estimation_adas_0002_description_gaze_estimation_adas_0002.html) to control the mouse pointer of your computer. 
+You will be using the Gaze Estimation model to estimate the gaze of the user's eyes and change the mouse pointer position accordingly.
+This project will demonstrate your ability to run multiple models in the same machine and coordinate the flow of data between those models.  
+The gaze estimation model requires three inputs  you will have to use three other OpenVino models:
+
+The head pose
+The left eye image
+The right eye image.
+
+## Project requires and Installation
+- Install intel distribution of openvino for Windows 10 [here](https://docs.openvinotoolkit.org/2020.2/_docs_install_guides_installing_openvino_windows.html)
+
+To get these inputs, you will have to use three other OpenVino models:
+
+* [Face Detection](https://docs.openvinotoolkit.org/latest/_models_intel_face_detection_adas_0001_description_face_detection_adas_0001.html)
+* [Head Pose Estimation](https://docs.openvinotoolkit.org/latest/_models_intel_head_pose_estimation_adas_0001_description_head_pose_estimation_adas_0001.html)
+* [Facial Landmarks Detection](https://docs.openvinotoolkit.org/latest/_models_intel_landmarks_regression_retail_0009_description_landmarks_regression_retail_0009.html)
+
+### The Pipeline:
+You will have to coordinate the flow of data from the input, and then amongst the different models and finally to the mouse controller. The flow of data will look like this:
+
+![pipeline](./starter/Images/pipeline.png)
+
+## Benchmarks
+
+* I ran the model inference on CPU and GPU device on local machine given same input video and same virtual environment. Listed below are hardware versions:
+    Model precisions tested:
+
+  FP32
+  FP16
+  INT8
+  Hardwares tested:
+
+   CPU (2.3 GHz Intel Core i5)
+   GPU (Intel(R) UHD Graphics 630)
+
+I have checked Inference Time, Model Loading Time, and Frames Per Second model for FP16, FP32, and FP32-INT8
+
+
+**Benchmark results of the model. CPU(FP32-INT8,FP16,FP32) and Asynchronous Inference**
+
+
+
+<img src="/Computer Pointer Controller/starter/Images/cpu/model.cpu.png" />)  |  <img src="/Computer Pointer Controller/starter/Images/cpu/asycncpu.png" />
+ :---------------------------------------------------------------------------:|:---------------------------------------:
+<img src="/Computer Pointer Controller/starter/Images/cpu/asycncpu1.png" />   | <img src="/Computer Pointer Controller/starter/Images/cpu/asycncpu2.png" />)
+</br>
+
+
+**Benchmark results of the model. GPU(FP32-INT8,FP16,FP32) and Asynchronous Inference**
+
+<img src="/Computer Pointer Controller/starter/Images/gpu/model.GPU.png" />   |  <img src="/Computer Pointer Controller/starter/Images/gpu/asyngpy.png" />
+ :------------------------------------------------------------------------- -:|:---------------------------------------:
+<img src="/Computer Pointer Controller/starter/Images/gpu/asyngpy1.png" />   |  <img src="/Computer Pointer Controller/starter/Images/gpu/asyngpy2.png" />
+</br>
+
+
+* Due to non availability of FPGA and VPU in local machine, I did not run inference for these device types.
+
+
+
+* FP32
+
+  | Type of Hardware | Total inference time              | Total load time              | fps        |
+  |------------------|-----------------------------------|------------------------------|------------|
+  | CPU              |  31.6s                            | 0.930308s                    | 1.867089   |
+  | GPU              |  32.8s                            | 33.834617s                   | 1.798780   |
+
+
+* FP16
+  
+  
+  
+  | Type of Hardware | Total inference time              | Total load time               | fps       |
+  |------------------|-----------------------------------|-------------------------------|-----------|
+  | CPU              |  31.8s                            |  1.165073s                    | 1.855346  |
+  | GPU              |  32.6s                            |  34.921903s                   | 1.809816  |
+
+
+
+
+* FP32-INT8
+
+  
+  | Type of Hardware | Total inference time              | Total load time               | fps      |
+  |------------------|-----------------------------------|-------------------------------|----------|
+  | CPU              |  32.0s                            | 2.662999s                     | 1.843750 |
+  | GPU              |  34.1s                            | 47.700375s                    | 1.730205 |
+
+
 ## Requirements
 * 64-bit operating system that has 6th or newer generation of Intel processor running either Windows 10, Ubuntu 18.04.3 LTS, or macOS 10.13 or higher.
 * [Installing OpenVINO (version 2020.1)](https://docs.openvinotoolkit.org/2020.1/index.html)
