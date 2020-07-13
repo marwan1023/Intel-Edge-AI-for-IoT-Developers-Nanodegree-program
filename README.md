@@ -21,7 +21,8 @@ The project aims to create a people counting smart camera able to detect people 
 These statistics are sent using JSON and MQTT to a server, for bandwidth saving enabling the use of the low-speed link. If needed is always possible to watch remotely the video stream for seeing what's is currently happening.
 
 The challenges in this project are: select the right pre-trained model for doing the object detection, optimize the model to allow the inference on low-performance devices, properly adjust the input video stream using OpenCV for maximizing the model accuracy.
- ![people-counter-python](./Deploy a People Counter App at the Edge/images/people-counter-image.png)
+
+![people-counter-python](./Deploy a People Counter App at the Edge/images/people-counter-image.png)
 
 2. [Smart Queuing System](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Smart%20Queue%20Monitoring%20System)
 
