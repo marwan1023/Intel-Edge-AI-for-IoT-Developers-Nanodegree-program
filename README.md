@@ -95,7 +95,7 @@ To get these inputs, you will have to use three other OpenVino models:
 ### The Pipeline:
 You will have to coordinate the flow of data from the input, and then amongst the different models and finally to the mouse controller. The flow of data will look like this:
 
-![pipeline](./starter/Images/pipeline.png)
+![pipeline] <img src="/Computer Pointer Controller/starter/Images/pipeline.png" />
 
 ## Benchmarks
 
@@ -125,10 +125,12 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 
 **Benchmark results of the model. GPU(FP32-INT8,FP16,FP32) and Asynchronous Inference**
 
-<img src="/Computer Pointer Controller/starter/Images/gpu/model.GPU.png" />   |  <img src="/Computer Pointer Controller/starter/Images/gpu/asyngpy.png" />
- :------------------------------------------------------------------------- -:|:---------------------------------------:
+
+<img src="/Computer Pointer Controller/starter/Images/gpu/model.GPU.png" />  |  <img src="/Computer Pointer Controller/starter/Images/gpu/asyngpy.png" />
+ :--------------------------------------------------------------------------:|:---------------------------------------:
 <img src="/Computer Pointer Controller/starter/Images/gpu/asyngpy1.png" />   |  <img src="/Computer Pointer Controller/starter/Images/gpu/asyngpy2.png" />
 </br>
+
 
 
 * Due to non availability of FPGA and VPU in local machine, I did not run inference for these device types.
