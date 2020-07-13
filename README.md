@@ -2,7 +2,7 @@
 
  ![](Udacity.png) | ![](Intel-Scholarship+2020@2x.jpg)
 </br>
-```
+
 <div>
     <h1>Intel® Edge AI for IoT Developers Nanodegree Program</h1>
     <p>N.B.: Please don't use the assignment and quiz solution. Try to solve the problem by yourself.</p><br/>
