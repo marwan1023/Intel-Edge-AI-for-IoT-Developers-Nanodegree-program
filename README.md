@@ -113,12 +113,13 @@ You will have to coordinate the flow of data from the input, and then amongst th
 
 I have checked Inference Time, Model Loading Time, and Frames Per Second model for FP16, FP32, and FP32-INT8
 
+<img src="/Computer Pointer Controller/starter/Images/cpu/output_video.gif" />
 
 **Benchmark results of the model. CPU(FP32-INT8,FP16,FP32) and Asynchronous Inference**
 
 
 
-<img src="/Computer Pointer Controller/starter/Images/cpu/model.cpu.png" />)  |  <img src="/Computer Pointer Controller/starter/Images/cpu/asycncpu.png" />
+<img src="/Computer Pointer Controller/starter/Images/cpu/model.cpu.png" />  |  <img src="/Computer Pointer Controller/starter/Images/cpu/asycncpu.png" />
  :---------------------------------------------------------------------------:|:---------------------------------------:
 <img src="/Computer Pointer Controller/starter/Images/cpu/asycncpu1.png" />   | <img src="/Computer Pointer Controller/starter/Images/cpu/asycncpu2.png" />
 </br>
