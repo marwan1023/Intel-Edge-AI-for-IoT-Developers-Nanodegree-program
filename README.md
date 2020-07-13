@@ -10,7 +10,7 @@
 </div>
 
 ## Projects
-1. [Deploy a People Counter App at the Edge](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Deploy%20a%20People%20Counter%20App%20at%20the%20Edge)
+## 1. [Deploy a People Counter App at the Edge](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Deploy%20a%20People%20Counter%20App%20at%20the%20Edge)
 
 The project aims to create a people counting smart camera able to detect people using an optimized AI model at the Edge and extract relevant statistics like:
 
@@ -22,9 +22,9 @@ These statistics are sent using JSON and MQTT to a server, for bandwidth saving 
 
 The challenges in this project are: select the right pre-trained model for doing the object detection, optimize the model to allow the inference on low-performance devices, properly adjust the input video stream using OpenCV for maximizing the model accuracy.
 
-![people-counter-python](Deploy a People Counter App at the Edge/images/people-counter-image.png)
+![people-counter-python](./Deploy a People Counter App at the Edge/images/people-counter-image.png)
 
-2. [Smart Queuing System](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Smart%20Queue%20Monitoring%20System)
+## 2. [Smart Queuing System](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Smart%20Queue%20Monitoring%20System)
 
 The goal of this project is building an application to reduce congestion and queuing systems.
 ## The Scenarios
@@ -65,7 +65,7 @@ The goal of this project is building an application to reduce congestion and que
    |  :---: | :---: | :---: | :---: |      
    | ![Transportation_cpu](./Smart Queue Monitoring System/results_gif/transportation/cpu/ezgif.com-video-to-gif_cpu.gif) | ![Transportation_fpga](./Smart Queue Monitoring System/results_gif/transportation/fpga/ezgif.com-video-to-gif_fpga.gif) | ![Transportation_gpu](./Smart Queue Monitoring System/results_gif/transportation/gpu/ezgif.com-video-to-gif_gpu.gif) | ![Transportation_vpu](./Smart Queue Monitoring System/results_gif/transportation/vpu/ezgif.com-video-to-gif_vpu.gif) |
    
-3. [Computer Pointer Controller](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Computer%20Pointer%20Controller/starter)
+## 3. [Computer Pointer Controller](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Computer%20Pointer%20Controller/starter)
 
 ## Requirements
 * 64-bit operating system that has 6th or newer generation of Intel processor running either Windows 10, Ubuntu 18.04.3 LTS, or macOS 10.13 or higher.
