@@ -1,7 +1,7 @@
 ## Intel® Edge AI for IoT Developers Nanodegree program
 
  
- <img src="Intel-Scholarship+2020@2x.jpg" width="600"/> | <img src="Udacity.png" width="600"/>
+ <img src="Intel-Scholarship+2020@2x.jpg" width="550"/> | <img src="Udacity.png" width="550"/>
     </br>
  
 
@@ -29,7 +29,7 @@ The challenges in this project are: select the right pre-trained model for doing
 | Programming Language: |  Python 3.5 or 3.6 |
 
 
-<img src="/Deploy a People Counter App at the Edge/images/people-counter-image.png" width="425"/>
+<img src="/Deploy a People Counter App at the Edge/images/people-counter-image.png" />
 
 ## 2. [Smart Queuing System](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Smart%20Queue%20Monitoring%20System)
 
