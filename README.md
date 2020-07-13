@@ -58,7 +58,7 @@ The goal of this project is building an application to reduce congestion and que
 
    |  CPU   |  FPGA |  GPU  |  VPU  |
    |  :---: | :---: | :---: | :---: |    
-   | ![Manufacturing_cpu](<img src="/Smart Queue Monitoring System/results_gif/manufacturing/cpu/ezgif.com-video-to-gif_cpu.gif"/>) | ![Manufacturing_fpga](<img src="/Smart Queue Monitoring System/results_gif/manufacturing/fpga/ezgif.com-video-to-gif_Fpga.gif"/>) | ![Manufacturing_gpu](<img src="/Smart Queue Monitoring System/results_gif/manufacturing/gpu/ezgif.com-video-to-gif_gpu.gif"/>) | ![Manufacturing_vpu](<img src="/Smart Queue Monitoring System/results_gif/manufacturing/vpu/ezgif.com-video-to-gif_vpu.gif" />) |
+   | <img src="/Smart Queue Monitoring System/results_gif/manufacturing/cpu/ezgif.com-video-to-gif_cpu.gif"/> | <img src="/Smart Queue Monitoring System/results_gif/manufacturing/fpga/ezgif.com-video-to-gif_Fpga.gif"/> | <img src="/Smart Queue Monitoring System/results_gif/manufacturing/gpu/ezgif.com-video-to-gif_gpu.gif"/> | <img src="/Smart Queue Monitoring System/results_gif/manufacturing/vpu/ezgif.com-video-to-gif_vpu.gif" /> |
 
 2. Retail Sector
 
