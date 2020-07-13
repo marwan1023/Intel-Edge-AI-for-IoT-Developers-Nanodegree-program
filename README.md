@@ -95,7 +95,7 @@ To get these inputs, you will have to use three other OpenVino models:
 ### The Pipeline:
 You will have to coordinate the flow of data from the input, and then amongst the different models and finally to the mouse controller. The flow of data will look like this:
 
-![pipeline] <img src="/Computer Pointer Controller/starter/Images/pipeline.png" />
+<img src="/Computer Pointer Controller/starter/Images/pipeline.png" />
 
 ## Benchmarks
 
@@ -119,7 +119,7 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 
 <img src="/Computer Pointer Controller/starter/Images/cpu/model.cpu.png" />)  |  <img src="/Computer Pointer Controller/starter/Images/cpu/asycncpu.png" />
  :---------------------------------------------------------------------------:|:---------------------------------------:
-<img src="/Computer Pointer Controller/starter/Images/cpu/asycncpu1.png" />   | <img src="/Computer Pointer Controller/starter/Images/cpu/asycncpu2.png" />)
+<img src="/Computer Pointer Controller/starter/Images/cpu/asycncpu1.png" />   | <img src="/Computer Pointer Controller/starter/Images/cpu/asycncpu2.png" />
 </br>
 
 
