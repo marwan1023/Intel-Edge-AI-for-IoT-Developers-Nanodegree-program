@@ -1,7 +1,7 @@
 
 
-    ![](Udacity.png)           | ![](Intel-Scholarship+2020@2x.jpg)
-     </br>
+    ![](Udacity.png) | ![](Intel-Scholarship+2020@2x.jpg)
+    </br>
  
 # Intel® Edge AI for IoT Developers Nanodegree program
 <div>
