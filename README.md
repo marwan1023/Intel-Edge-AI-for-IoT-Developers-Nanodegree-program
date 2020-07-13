@@ -1,7 +1,7 @@
 ## Intel® Edge AI for IoT Developers Nanodegree program
 
- ![](Intel-Scholarship+2020@2x.jpg)
- <img src="Intel-Scholarship+2020@2x.jpg" width="425"/> | <img src="Udacity.png" width="425"/>
+ 
+ <img src="Intel-Scholarship+2020@2x.jpg" width="600"/> | <img src="Udacity.png" width="600"/>
     </br>
  
 
