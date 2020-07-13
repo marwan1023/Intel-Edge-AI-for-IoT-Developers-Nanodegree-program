@@ -28,12 +28,7 @@ The challenges in this project are: select the right pre-trained model for doing
 | Programming Language: |  Python 3.5 or 3.6 |
 
 
-<p>
-people-counter-python
-<a href="https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/blob/master/Deploy%20a%20People%20Counter%20App%20at%20the%20Edge/images/people-counter-image.png">
-<img border="0" src="people-counter-image.png" width="100" height="90">
-</a>
-
+<img src="/Deploy a People Counter App at the Edge/images/people-counter-image.png" width="425"/>
 
 ## 2. [Smart Queuing System](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Smart%20Queue%20Monitoring%20System)
 
