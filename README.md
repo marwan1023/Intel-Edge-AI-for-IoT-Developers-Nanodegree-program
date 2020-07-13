@@ -22,7 +22,7 @@ These statistics are sent using JSON and MQTT to a server, for bandwidth saving 
 
 The challenges in this project are: select the right pre-trained model for doing the object detection, optimize the model to allow the inference on low-performance devices, properly adjust the input video stream using OpenCV for maximizing the model accuracy.
 
-(./Deploy a People Counter App at the Edge/images/people-counter-image.png)
+(https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/blob/master/Deploy%20a%20People%20Counter%20App%20at%20the%20Edge/images/people-counter-image.png)
 
 ## 2. [Smart Queuing System](https://github.com/marwan1023/Intel-Edge-AI-for-IoT-Developers-Nanodegree-program/tree/master/Smart%20Queue%20Monitoring%20System)
 
