@@ -172,7 +172,7 @@ I have checked Inference Time, Model Loading Time, and Frames Per Second model f
 * [Installing Intel's Deep Learning Workbench (version 2020.1)](https://docs.openvinotoolkit.org/2020.1/_docs_Workbench_DG_Install_Workbench.html)
 * [Installing Intel's VTune Amplifier](https://software.intel.com/en-us/get-started-with-vtune)
 
-[And more sources, see this link. The Free Foundation course is from Udacity and Intel](https://github.com/marwan1023/Udacity-Intel-Edge-AI-for-IoT-Developers-Nanodegree)
+And more sources, see this link. [The Free Foundation course is from Udacity and Intel](https://github.com/marwan1023/Udacity-Intel-Edge-AI-for-IoT-Developers-Nanodegree)|
 [Intel® Edge AI Fundamentals with OpenVINO™](https://www.udacity.com/course/intel-edge-AI-fundamentals-with-openvino--ud132)
 
 
